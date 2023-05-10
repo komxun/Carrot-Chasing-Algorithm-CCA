@@ -8,7 +8,7 @@ Even the path is a nonlinear curve, the carrot chasing algorithm (CCA) for strai
 
 The algorithm can be summarized below. This has been coded in the main while loop in **CCA_Straight.m**
 
-![image](https://github.com/komxun/Carrot-Chasing-Algorithm-CCA/assets/133139057/0d20f6c2-de95-4ae0-8a45-b980ba8821a1)
+![image](https://github.com/komxun/Carrot-Chasing-Algorithm-CCA/assets/133139057/8d2d5987-c5ef-48ba-97b2-c8ab054d71a9)
 https://github.com/komxun/Carrot-Chasing-Algorithm-CCA/blob/ce4031642923f50cec0069f32617ef8b945e5d68/CCA_Straight.m#L36-L82
 
 
