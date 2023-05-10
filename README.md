@@ -23,7 +23,7 @@ For CCA, the design parameters include the look-ahead distance $\delta$, and the
 ![image](https://github.com/komxun/Carrot-Chasing-Algorithm-CCA/assets/133139057/a14caa51-e0a3-485b-aef7-f74c30104693)
 
 
-# Reference
+# References
 [1] Bhadani, R. (2020). _Path Planning of Unmanned System using Carrot-chasing Algorithm_. arXiv preprint arXiv:2012.13227.
 
 [2] X. Jin, W. Mei and Y. Zhaolong, "Path Following Control for Unmanned Aerial Vehicle Based on Carrot Chasing Algorithm and PLOS," 2020 IEEE International Conference on Artificial Intelligence and Information Systems (ICAIIS), Dalian, China, 2020, pp. 571-576, doi: 10.1109/ICAIIS49377.2020.9194843.
