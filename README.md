@@ -14,6 +14,10 @@ https://github.com/komxun/Carrot-Chasing-Algorithm-CCA/blob/ce4031642923f50cec00
 
 # Result - CCA Straight-Line
 ![image](https://github.com/komxun/Carrot-Chasing-Algorithm-CCA/assets/133139057/c14b2706-c9c2-4caa-908e-622ff491f453)
+
+# Tuning CCA
+For CCA, the design parameters include the look-ahead distance $\delta$, and the gain $\kappa$. The closed loop trajectory directly depends on these parameters. The effect of each parameters have been plotted in figure below. In general, too small $\delta$ can give an overshoot and oscillation to the trajectory since the virtual target has been placed too close to the initial position. Larger $\delta$ can make the trajectory settle on the path quickly while reducing the cross-track error. However, too large $\delta$ may results in a slow convergence to the line. The value of $\delta$ should be carefully determined based on the distance of the path and the velocity of the vehicle. Although the gain $\kappa$ has little effect on the trajectory, smaller $\kappa$ can increase the stability of the trajectory and has less error to the desired path.
+
 ![image](https://github.com/komxun/Carrot-Chasing-Algorithm-CCA/assets/133139057/a6c02fc1-9da9-4cf3-889a-5002b054d595)
 ![image](https://github.com/komxun/Carrot-Chasing-Algorithm-CCA/assets/133139057/3061d4f0-83fa-4eee-9c49-56932ea9ada2)
 
