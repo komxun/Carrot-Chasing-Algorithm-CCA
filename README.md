@@ -4,7 +4,9 @@ heading angle direction $\psi$
 
 # Sraight-line Following CCA
 The carrot chasing algorithm (CCA) for straight line can be applied, even the path is a nonlinear curve, by simply discretizing the path into waypoints. After obtaining all the waypoints, CCA can be executed for each section of the path as shown in figure below. 
-![image](https://github.com/komxun/Carrot-Chasing-Algorithm-CCA/assets/133139057/3ce249e2-ea7d-4bab-9226-0e3b49112eaa)
+|![image](https://github.com/komxun/Carrot-Chasing-Algorithm-CCA/assets/133139057/3ce249e2-ea7d-4bab-9226-0e3b49112eaa)|
+|:--:|
+|*CCA path following implementation scheme*|
 
 The algorithm can be summarized below. This has been coded in the main while loop in **CCA_Straight.m**
 
@@ -13,14 +15,18 @@ https://github.com/komxun/Carrot-Chasing-Algorithm-CCA/blob/ce4031642923f50cec00
 
 
 # Result - CCA Straight-Line
-![image](https://github.com/komxun/Carrot-Chasing-Algorithm-CCA/assets/133139057/fdc6446a-bfde-43dc-aee3-c50c7efd85c1)
+|![image](https://github.com/komxun/Carrot-Chasing-Algorithm-CCA/assets/133139057/fdc6446a-bfde-43dc-aee3-c50c7efd85c1)|
+|:--:|
+|CCA for straight-line path following with $\kappa = 0.75$ and various $\delta$| 
 
 
 # Tuning CCA
 For CCA, the design parameters include the look-ahead distance $\delta$, and the gain $\kappa$. The closed loop trajectory directly depends on these parameters. The effect of each parameters have been plotted in figure below. In general, too small $\delta$ can give an overshoot and oscillation to the trajectory since the virtual target has been placed too close to the initial position. Larger $\delta$ can make the trajectory settle on the path quickly while reducing the cross-track error. However, too large $\delta$ may results in a slow convergence to the line. The value of $\delta$ should be carefully determined based on the distance of the path and the velocity of the vehicle. Although the gain $\kappa$ has little effect on the trajectory, smaller $\kappa$ can increase the stability of the trajectory and has less error to the desired path.
 
-![image](https://github.com/komxun/Carrot-Chasing-Algorithm-CCA/assets/133139057/05f944c0-a825-4ca4-8312-5afebf80f5e4)
-![image](https://github.com/komxun/Carrot-Chasing-Algorithm-CCA/assets/133139057/a14caa51-e0a3-485b-aef7-f74c30104693)
+| ![image](https://github.com/komxun/Carrot-Chasing-Algorithm-CCA/assets/133139057/05f944c0-a825-4ca4-8312-5afebf80f5e4) ![image](https://github.com/komxun/Carrot-Chasing-Algorithm-CCA/assets/133139057/a14caa51-e0a3-485b-aef7-f74c30104693) |
+|:--:|
+|*The effect of different design parameters on the path following trajectory*|
+
 
 
 # References
