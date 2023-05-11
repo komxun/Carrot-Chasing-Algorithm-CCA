@@ -3,7 +3,7 @@ One of the simplest path-following algorithm is Carrot Chasing Algorithm (CCA). 
 heading angle direction $\psi$ 
 
 # Sraight-line Following CCA
-Even the path is a nonlinear curve, the carrot chasing algorithm (CCA) for straight line can still be applied by simply discretizing the path into waypoints. After obtaining all the waypoints, CCA can be executed for each section of the path as shown in figure below. 
+The carrot chasing algorithm (CCA) for straight line can be applied, even the path is a nonlinear curve, by simply discretizing the path into waypoints. After obtaining all the waypoints, CCA can be executed for each section of the path as shown in figure below. 
 ![image](https://github.com/komxun/Carrot-Chasing-Algorithm-CCA/assets/133139057/3ce249e2-ea7d-4bab-9226-0e3b49112eaa)
 
 The algorithm can be summarized below. This has been coded in the main while loop in **CCA_Straight.m**
